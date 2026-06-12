@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora:ital,wght=0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>HOLLOW SONG</title>
+</head>
+<body>
+    <header class="top-bar">
+        <h1>Hollow Song</h1>
+        <div class="search-container">
+            <span class="material-symbols-outlined search-icon">search</span>
+            <input type="text" placeholder="Buscar en el reino..." class="search-input">
+            <button id="btn-reset-filters" class="material-symbols-outlined" title="Limpiar filtros">restart_alt</button>
+        </div>
+    </header>
+
+    <video autoplay muted loop id="bg-video">
+        <source src="mp4\Fondo_Hollow.mp4" type="video/mp4">
+    </video>
+
+    <main class="main-content">
+        <div class="sub_titulo">
+            <h2>Listas de Reproducción</h2>
+        </div>
+        
+        <div class="carruzel">
+            <div class="albunes efectoHover albun_Hollow" data-audio="mp3/enter-hallownest.mp3">
+                <img class="Portada_Albunes play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST">
+                <h4 class="text_Albunes text">Hollow Knight: Soundtrack</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+            <div class="albunes efectoHover albun_Gods_Nightmares" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3">
+                <img class="Portada_Albunes play_music" src="https://i.scdn.co/image/ab67616d0000b273d8341cea04c25287af7b2ecf" alt="Gods & Nightmares">
+                <h4 class="text_Albunes text">Hollow Knight: Gods & <br>Nightmares</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+            <div class="albunes efectoHover albun_Silksong" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3">
+                <img class="Portada_Albunes play_music" src="https://i.scdn.co/image/ab67616d00001e02e9bb10e381fbd4f78ce2a511" alt="Silksong OST">
+                <h4 class="text_Albunes text">Hollow Knight: Silksong <br>(Original Soundtrack)</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+    </main>
+    <div class="sub_titulo">
+        <h2>Canciones</h2>
+    </div>
+    <div class="albun_Hollow">
+        <div class="canciones efectoHover" data-audio="mp3/Enter_hallownest.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Enter Hollownest</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Dirtmouth.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Dirtmouth</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+                <div class="canciones efectoHover" data-audio="mp3/Crossroads.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Crossroads</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/False_Knight.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: False Knight</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Greenpath.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Greenpath</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Hornet.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Hornet</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Reflection.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Reflection</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Mantis_Lords.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Mantis Lords</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/City_Of_Tears.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: City of Tears</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Dung_Defender.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Dung Defender</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Crystal_Peak.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Crystal Peak</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Fungal_Wastes.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Fungal Wastes</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Decisive_Battle.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Decisive Battle</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Soul_Sanctum.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Soul Sanctum</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Resting_Grounds.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Resting Grounds</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Queens_Gardens.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Queen's Gardens</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/The_White_Lady.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: The White Lady</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Broken_Vessel.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Broken Vessel</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Kingdoms_Edge.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Kingdom's Edge</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Nosk.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Nosk</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Dream.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Dream</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Dream_Battle.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Dream Battle</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/White_Palace.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: White Palace</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Sealed_Vessel.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Sealed Vessel</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Radiance.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Radiance</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+        <div class="canciones efectoHover" data-audio="mp3/Hollow_Knight.mp3">
+            <img class="Portada_lista play_music" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Hollow knight</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="albun_Gods_Nightmares">
+        <div class="canciones efectoHover" data-audio="mp3/Enter_hallownest.mp3">
+            <img class="Portada_lista play_music" src="https://i.scdn.co/image/ab67616d0000b273d8341cea04c25287af7b2ecf" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Enter Hollownest</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="albun_Silksong">
+        <div class="canciones efectoHover" data-audio="mp3/Enter_hallownest.mp3">
+            <img class="Portada_lista play_music" src="https://i.scdn.co/image/ab67616d00001e02e9bb10e381fbd4f78ce2a511" alt="Hollow Knight OST: Enter Hollownest">
+            <div class="text_canciones">
+                <h4 class="text_Albunes text">Hollow Knight: Enter Hollownest</h4>
+                <p class="text_Albunes text">Christopher Larkin</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="player-bar">
+        <audio id="main-audio" src=""></audio>
+
+        <div class="player-info">
+            <img id="current-cover" src="https://f4.bcbits.com/img/a0907743342_10.jpg" alt="Portada actual">
+            <div>
+                <h4 id="current-title">Selecciona una lista</h4>
+                <p id="current-artist">-</p>
+            </div>
+        </div>
+
+        <div class="player-controls">
+            <div class="control-buttons">
+                <button id="btn-repeat" class="material-symbols-outlined" title="Repetir Canción">repeat</button>
+                <button id="btn-prev" class="material-symbols-outlined">skip_previous</button>
+                <button id="btn-play" class="material-symbols-outlined play-main">play_circle</button>
+                <button id="btn-next" class="material-symbols-outlined">skip_next</button>
+                <button id="btn-shuffle" class="material-symbols-outlined" title="Modo Aleatorio">shuffle</button>
+            </div>
+            <div class="progress-container">
+                <span id="current-time">0:00</span>
+                <input type="range" id="progress-bar" value="0" min="0" max="100">
+                <span id="total-duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="player-volume">
+            <span class="material-symbols-outlined">volume_up</span>
+            <input type="range" id="volume-bar" value="80" min="0" max="100">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
